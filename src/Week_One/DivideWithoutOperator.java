@@ -7,16 +7,18 @@ public class DivideWithoutOperator {
         int division = 0;
 
         if (dividend>=divisor){
+
+                            //2         //4
             for (int i = divisor; i <= dividend ; i+=divisor) {
                 division++;
             }
         }
-        System.out.println(division);
+        System.out.println(dividend + " divided by " + divisor + " is: " + division);
     }
 
     public static void main(String[] args) {
 
-        divideWithoutOperator(1,1);
+        divideWithoutOperator(4,2);
 
 
     }
